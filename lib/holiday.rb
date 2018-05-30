@@ -71,10 +71,8 @@ def all_supplies_in_holidays(holiday_hash)
       output = ""
       output.concat("\t #{name.capitalize}")
       output.concat(list.join(", "))
-    puts "#{holiday.capitalize}"
-    # holiday.each do |list|
-    #   puts "\t #{holiday}: #{list.join(", ")}"
-    # end
+      puts output
+    end
   end 
   
   holiday_hash
