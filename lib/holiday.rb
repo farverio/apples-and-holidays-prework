@@ -57,7 +57,8 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |holiday, supply_list|
     puts holiday
     puts supply_list
-    # holiday[supply_list].each {|el| combined_list << el}
+    combined_list << 
+    # holiday_hash[holiday][supply_list].each {|el| combined_list << el}
   end
   
   combined_list
