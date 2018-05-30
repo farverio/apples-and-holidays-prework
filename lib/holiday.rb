@@ -57,7 +57,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |holiday, supply_list|
     puts "Before: #{combined_list}"
     holiday[supply_list].each {|el| combined_list << el}
-    puts "Before: #{combined_list}"
+    puts "After: #{combined_list}"
   end
   
   combined_list
