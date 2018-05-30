@@ -84,7 +84,7 @@ def all_holidays_with_bbq(holiday_hash)
   matching_holidays = []
   
   holiday_hash.each do |season, holiday|
-    season.each do |holiday, array_list|
+    holiday.each do |name, array_list|
       puts "EXAMPLE: #{array_list}"
       if array_list.include? "BBQ"
         matching_holidays << holiday
